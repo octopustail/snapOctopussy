@@ -1,0 +1,35 @@
+{
+  "name": "snapterestocto",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./source/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octopustail/snapOctopussy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octopustail/snapOctopussy/issues"
+  },
+  "homepage": "https://github.com/octopustail/snapOctopussy#readme",
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jQuery": "^1.7.4",
+    "react": "^0.14.0-beta3",
+    "react-dom": "^0.14.0-beta3",
+    "snapkite-stream-client": "^1.0.3"
+  }
+}
